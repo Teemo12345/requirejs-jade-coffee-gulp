@@ -1,0 +1,25 @@
+{
+  "name": "requirejs-jade-coffee",
+  "version": "1.0.0",
+  "description": "requirejs+jade+coffee+gulp demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Teemo12345/requirejs-jade-coffee-gulp.git"
+  },
+  "keywords": [
+    "requirejs",
+    "gulp",
+    "jade",
+    "coffeescript"
+  ],
+  "author": "teemo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Teemo12345/requirejs-jade-coffee-gulp/issues"
+  },
+  "homepage": "https://github.com/Teemo12345/requirejs-jade-coffee-gulp#readme"
+}
