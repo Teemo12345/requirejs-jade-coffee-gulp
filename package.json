@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/Teemo12345/requirejs-jade-coffee-gulp/issues"
   },
-  "homepage": "https://github.com/Teemo12345/requirejs-jade-coffee-gulp#readme"
+  "homepage": "https://github.com/Teemo12345/requirejs-jade-coffee-gulp#readme",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "express": "^4.15.2",
+    "gulp": "^3.9.1",
+    "jade": "^1.11.0",
+    "open": "0.0.5"
+  }
 }
