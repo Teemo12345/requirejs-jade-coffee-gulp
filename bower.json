@@ -1,0 +1,51 @@
+{
+  "name": "requirejs-jade-coffee",
+  "description": "requirejs+jade+coffee+gulp demo",
+  "main": "index.js",
+  "authors": [
+    "teemo"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "requirejs",
+    "gulp",
+    "jade",
+    "coffeescript"
+  ],
+  "homepage": "https://github.com/Teemo12345/requirejs-jade-coffee-gulp",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/js/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.0",
+    "coffee-script": "^1.12.4",
+    "requirejs": "^2.3.3"
+  },
+  "devDependencies": {
+    "require-jade": "^0.0.3",
+    "require-cs": "^0.5.0"
+  },
+  "overrides": {
+    "jquery": {
+      "main":"public/js/vendor/jquery/dist/jquery.min.js"
+      
+    }
+  },
+  "preen": {
+    "jquery": [
+      "dist/jquery.min.js"
+    ],
+    "bootstrap":[
+      "dist/*.min.js",
+      "dist/*.min.css",
+      "dist/*.ttf"
+    ]
+  }
+}

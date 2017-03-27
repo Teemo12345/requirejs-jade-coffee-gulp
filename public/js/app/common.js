@@ -1,0 +1,9 @@
+require.config({
+  baseUrl:'./js/',
+  paths:{
+    'jquery':'vendor/jquery/dist/jquery.min',
+    'cs':'vendor/require-cs/cs',
+    'jade':'vendor/require-jade/jade',
+    'coffee-script':'vendor/coffeescript/extras/coffee-script'
+  }
+})

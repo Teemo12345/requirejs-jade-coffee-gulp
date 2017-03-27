@@ -24,9 +24,13 @@
   "homepage": "https://github.com/Teemo12345/requirejs-jade-coffee-gulp#readme",
   "devDependencies": {
     "bower": "^1.8.0",
+    "coffee-script": "^1.12.4",
     "express": "^4.15.2",
     "gulp": "^3.9.1",
     "jade": "^1.11.0",
-    "open": "0.0.5"
+    "main-bower-files": "^2.13.1",
+    "open": "0.0.5",
+    "preen": "^1.2.0",
+    "requirejs": "^2.3.3"
   }
 }
